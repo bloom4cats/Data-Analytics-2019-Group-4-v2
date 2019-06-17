@@ -1,0 +1,14 @@
+﻿Name,Table Column Name,Description,Type
+Divided Highway,DIVIDED_HWY,Indicates whether a roadway section is part of a divided highway,text
+Lanes,LANES,Number of lanes in both directions carrying through traffic,long int
+Median Width,MEDIAN_WIDTH,"Existing median width, including inside shoulders",long int
+NLFID                    ,NLFID,Primary key field that allows ODOT’s graphic roadway network geometric segments to be linked to business data attributes,text
+Route Number,ROUTE_NBR,Route number associated with the section of the route,text
+Route Type,ROUTE_TYPE,Two letter code indicating the basic transportation grouping or system that the route belongs to - third component of the NLFID,text
+Shld Lt Total Width,SHLD_LT_TOTAL_WIDTH,"Width of left (outside) shoulder, including both paved and unpaved parts measured from the center of the edge line outward",long int
+Shld Rt Total Width,SHLD_RT_TOTAL_WIDTH,Width of the paved portion of the right (outside) shoulder measured from the center of the edge line outward,long int
+Speed Limit Number,SPEED_LIMIT_NBR,Speed limit associated with the section of roadway,long int
+Street Direction Suffix,STREET_DIR_SUFFIX,"Differentiates named roadway segments based on a geographic grid, such as Main Street South",text
+Street Name Text,STREET_NAME_TXT,Street name,text
+Surface Left Width,SURFACE_LT_WIDTH,Surface width on the left side of the roadway,long int
+Surface Right Width,SURFACE_RT_WIDTH,Surface width on the right side of the roadway,long int
